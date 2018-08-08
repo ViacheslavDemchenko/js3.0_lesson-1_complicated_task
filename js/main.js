@@ -11,6 +11,7 @@ var sum = 1;
 //Выводим результат умножения в консоль
 	console.log(sum);
 //Возводим результат в третью степень и переводим обратно в строку
-	thirdDeg = String(Math.pow(sum, 3) );
-	result = thirdDeg.slice(0,2);//Вырезаем первые два элемента строки
+	let thirdDeg = String(sum ** 3);
+		result = thirdDeg.slice(0,2);//Вырезаем первые два элемента строки
+	
 	alert(result);//Выводим окончательный результат
